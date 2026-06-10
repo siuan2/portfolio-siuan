@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Portfolio | Siuan Abdulkerim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Siuan Abdulkerim</div>
+        <div class="links">
+            <a href="#about">About</a>
+        <a href="cv.html" target="_blank" class="nav-cv-btn">View CV</a>
+            <a href="#video-showcase">Videos</a>
+            <a href="#experience">Collaborations</a>
+            <a href="#graphic-showcase">Design</a>
+            <a href="#photo-showcase">Photography</a>
+            <a href="#contact">Contact</a>
+            
+        </div>
+    </nav>
+
+    <header class="hero-split">
+        <div class="hero-left">
+            <div class="hero-text">
+                <span class="hero-tag">Cinematic Visual Creator</span>
+                <h1>SIUAN<br>ABDULKERIM</h1>
+                <p>Videographer • Video Editor • Graphic Designer • Photographer</p>
+                <div class="hero-buttons">
+                    <button onclick="document.getElementById('video-showcase').scrollIntoView({behavior: 'smooth'})"
+                        class="btn">Explore Work</button>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})"
+                        class="btn-secondary">Contact Me</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="images/IMG_0806.png" alt="Siuan Abdulkerim">
+            <div class="image-glow"></div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2 class="title">About Me</h2>
+        <p class="center-text">I am a filmmaker, editor, and designer focused on creating cinematic, high-impact
+            content. Because I handle the entire creative pipeline—from directing camera movements on location to
+            crafting the final graphic assets—I can guarantee a seamless, film-grade look across everything I make. I
+            work with brands to turn complex ideas into clean, engaging visuals that demand attention.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2 class="title">Professional Services</h2>
+        <p class="center-text" style="margin-bottom: 50px;">Delivering high-end visual production and design solutions
+            built to engage your audience.</p>
+
+        <div class="services-grid">
+            <div class="service-box">
+                <div class="service-icon">🎬</div>
+                <h3>Film Production</h3>
+                <p>Directing high-end visual content from initial concept and on-location shooting to final frame
+                    composition.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">🎞️</div>
+                <h3>Cinematic Editing</h3>
+                <p>Crafting compelling pacing and color grading with a focus on audience retention and clean digital
+                    delivery.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">✨</div>
+                <h3>Motion Graphics</h3>
+                <p>Enhancing stories with smooth typographic transitions, audio-reactive elements, and custom music
+                    visualizers.</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">🎨</div>
+                <h3>Brand Identity Design</h3>
+                <p>Developing modern social media visual assets, graphics, and layouts that elevate commercial presence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-showcase">
+        <h2 class="title">🎥 Videography & Editing</h2>
+        <p class="center-text" style="margin-bottom: 50px;">A collection of my independent film productions, on-location
+            videography, and creative edits.</p>
+
+        <h3 class="subsection-title">📱 Instagram & Reel Production</h3>
+    <div class="phone-container">
+    
+        <div class="phone-mockup" onclick="openModal('Short Form Piece 1', 'images/1698784830901757.mp4', 'video')">
+            <div class="phone-screen">x
+                <div class="phone-notch"></div>
+                <video class="vertical-video" autoplay loop muted playsinline>
+                    <source src="images/1698784830901757.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p class="center-text text-center">mazda reel</p>
+        </div>
+    
+        <div class="phone-mockup" onclick="openModal('Short Form Piece 2', 'images/1699995868576612.mp4', 'video')">
+            <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <video class="vertical-video" autoplay loop muted playsinline>
+                    <source src="images/1699995868576612.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p class="center-text text-center">BMW Reel</p>
+        </div>
+    
+        <div class="phone-mockup" onclick="openModal('Short Form Piece 3', 'images/1772708399485328.MP4', 'video')">
+            <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <video class="vertical-video" autoplay loop muted playsinline>
+                    <source src="images/1772708399485328.MP4" type="video/mp4">
+                </video>
+            </div>
+            <p class="center-text text-center">Mustang Reel </p>
+        </div>
+        <div class="phone-mockup" onclick="openModal('Short Form Piece 3', 'images/bmw Done V.mp4', 'video')">
+            <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <video class="vertical-video" autoplay loop muted playsinline>
+                    <source src="images/bmw Done V.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p class="center-text text-center">BMW ASMR</p>
+        </div>
+        
+            <div class="phone-mockup" onclick="openModal('Short Form Piece 3', 'images/Fanila29fmnissan altima (1).mp4', 'video')">
+                <div class="phone-screen">
+                    <div class="phone-notch"></div>
+                    <video class="vertical-video" autoplay loop muted playsinline>
+                        <source src="images/Fanila29fmnissan altima (1).mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="center-text text-center">Altima Nissan ASMR</p>
+            </div>
+
+            <div class="phone-mockup"
+                onclick="openModal('Short Form Piece 3', 'images/Ford Mustang Gt version 11 ps60.mp4', 'video')">
+                <div class="phone-screen">
+                    <div class="phone-notch"></div>
+                    <video class="vertical-video" autoplay loop muted playsinline>
+                        <source src="images/Ford Mustang Gt version 11 ps60.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="center-text text-center">Mustang ASMR</p>
+            </div>
+            
+            <div class="phone-mockup"
+                onclick="openModal('Short Form Piece 3', 'images/toyota camry xse 2020 post Version (1).mp4', 'video')">
+                <div class="phone-screen">
+                    <div class="phone-notch"></div>
+                    <video class="vertical-video" autoplay loop muted playsinline>
+                        <source src="images/toyota camry xse 2020 post Version (1).mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="center-text text-center">Camry Toyota ASMR</p>
+            </div>
+            
+            <div class="phone-mockup" onclick="openModal('Short Form Piece 2', 'images/Mazda6 finaly Vesrion .mp4', 'video')">
+                <div class="phone-screen">
+                    <div class="phone-notch"></div>
+                    <video class="vertical-video" autoplay loop muted playsinline>
+                        <source src="images/Mazda6 finaly Vesrion .mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="center-text text-center">Mazda AMSR</p>
+            </div>
+
+            
+               
+            </div>
+        </div>
+
+        <h3 class="subsection-title" style="margin-top: 60px;">🎬 Cinematic Short Film </h3>
+        <div class="film-row-container">
+            <div class="cinema-card video-card"
+                onclick="openModal('Music Visualizer / Short Film', 'images/1699217983544703.mp4', 'video')">
+                <div class="cinema-screen">
+                    <video class="preview-video widescreen-video" muted loop preload="none"
+                        poster="images/Screenshot 2026-05-28 at 16.04.58.png">
+                        <source src="images/1699217983544703.mp4" type="video/mp4">
+                    </video>
+                    <div class="cinema-overlay-play">▶ Play Film</div>
+                </div>
+                <div class="video-info cinema-details">
+                    <div>
+                        <h3> Cinematography</h3>
+
+                        <p>Mobile-shot storytelling. Focused on immersive audio-visual synchronization, deliberate typography, and refined
+                        cinematic continuity.</p>
+                    </div>
+                    <span class="badge">Featured Film</span>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+
+    <section id="experience" class="creator-section">
+        <h2 class="title">🚀 Channel Collaborations</h2>
+        <p class="center-text" style="margin-bottom: 50px;">Professional industry contract experience managing
+            timelines, pacing, and retention structures for major creators.</p>
+    
+        <div class="brand-link-grid">
+            <a href="https://www.youtube.com/@onurcan2" target="_blank" class="brand-profile-card">
+                <div class="avatar-wrapper">
+                    <img src="images/channels4_profile.jpg" alt="Onurcan Avatar" class="creator-avatar">
+                </div>
+                <div class="creator-meta">
+                    <h3>Onurcan</h3>
+                    <span class="creator-tag longform-tag">YouTube Main Cut</span>
+                    <p>Long-form YouTube editor for streamer Onurcan (via RAM Agency). Focusing on high-engagement pacing, advanced retention
+                    structures, and dynamic storytelling for stream and reaction content.</p>
+                </div>
+                <div class="card-arrow">↗</div>
+            </a>
+    
+            <a href="https://www.youtube.com/@edizderbreite target="_blank" class="brand-profile-card">
+                <div class="avatar-wrapper">
+                    <img src="images/Unknown.jpg" alt="Ediz Avatar" class="creator-avatar">
+                </div>
+                <div class="creator-meta">
+                    <h3>Ediz Content</h3>
+                    <span class="creator-tag shortform-tag">Shorts & TikTok</span>
+                    <p>Short-form editor for Ediz Content (via RAM Agency). Repurposing long-form YouTube broadcasts into high-impact TikToks
+                    and Shorts optimized for high engagement and fast pacing</p>
+                </div>
+                <div class="card-arrow">↗</div>
+            </a>
+    
+            <a href="https://www.youtube.com/@MazyarFayaq" target="_blank" class="brand-profile-card">
+                <div class="avatar-wrapper">
+                    <img src="images/images.jpeg" alt="Client Avatar" class="creator-avatar">
+                </div>
+                <div class="creator-meta">
+                    <h3>Mazyar Fayaq</h3>
+                    <span class="creator-tag commercial-tag">Commercial / Social</span>
+                    <p>Music Visualizer Creator for Mazyar Fayaq. Developing synchronized YouTube lyric videos enhanced with dynamic audio
+                    visualizers and stylized atmospheric motion effects</p>
+                </div>
+                <div class="card-arrow">↗</div>
+            </a>
+        </div>
+    </section>
+
+<section id="graphic-showcase">
+    <h2 class="title">🎨 Graphic Design Portfolio</h2>
+    <p class="center-text">Explore my brand identity and social media assets. Use the toggle below to switch layouts.
+    </p>
+
+    <div class="toggle-container">
+        <button id="toggle-3d" class="toggle-btn active" onclick="switchView('3d')">✨ Interactive 3D</button>
+        <button id="toggle-grid" class="toggle-btn" onclick="switchView('grid')">📱 Quick Grid</button>
+    </div>
+
+    <div id="view-3d-container" class="view-wrapper active-view">
+        <div class="slider-container">
+            <div class="slider-3d">
+                <div class="slider-item" style="--i:1; --steps:6;"
+                    onclick="openModal('Tratechs Campaign', 'images/camera1.png', 'image')"><img
+                        src="images/camera1.png" alt="Design 1"></div>
+                <div class="slider-item" style="--i:2; --steps:6;"
+                    onclick="openModal('Social Media Identity', 'images/data-2.png', 'image')"><img
+                        src="images/data-2.png" alt="Design 2"></div>
+                <div class="slider-item" style="--i:3; --steps:6;"
+                    onclick="openModal('Layen Co. Graphics', 'images/IMG_4686.JPG', 'image')"><img
+                        src="images/IMG_4686.JPG" alt="Design 3"></div>
+                <div class="slider-item" style="--i:4; --steps:6;"
+                    onclick="openModal('Brand Identity Project', 'images/IMG_9594.PNG', 'image')"><img
+                        src="images/IMG_9594.PNG" alt="Design 4"></div>
+                <div class="slider-item" style="--i:5; --steps:6;"
+                    onclick="openModal('Creative Poster Assets', 'images/laptopdesign1.png', 'image')"><img
+                        src="images/laptopdesign1.png" alt="Design 5"></div>
+                <div class="slider-item" style="--i:6; --steps:6;"
+                    onclick="openModal('Vector UI Illustration', 'images/mobileapp1.1.png', 'image')"><img
+                        src="images/mobileapp1.1.png" alt="Design 6"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="view-grid-container" class="view-wrapper">
+        <div class="graphic-flat-grid">
+            <div class="grid-card" onclick="openModal('Tratechs Campaign', 'images/camera1.png', 'image')">
+                <img src="images/camera1.png" alt="Design 1">
+                <div class="grid-card-overlay">
+                    <h3>Tratechs Campaign</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+            <div class="grid-card" onclick="openModal('Social Media Identity', 'images/data-2.png', 'image')">
+                <img src="images/data-2.png" alt="Design 2">
+                <div class="grid-card-overlay">
+                    <h3>Social Media Identity</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+            <div class="grid-card" onclick="openModal('Layen Co. Graphics', 'images/IMG_4686.JPG', 'image')">
+                <img src="images/IMG_4686.JPG" alt="Design 3">
+                <div class="grid-card-overlay">
+                    <h3>Layen Co. Graphics</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+            <div class="grid-card" onclick="openModal('Brand Identity Project', 'images/IMG_9594.PNG', 'image')">
+                <img src="images/IMG_9594.PNG" alt="Design 4">
+                <div class="grid-card-overlay">
+                    <h3>Brand Identity Project</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+            <div class="grid-card" onclick="openModal('Creative Poster Assets', 'images/laptopdesign1.png', 'image')">
+                <img src="images/laptopdesign1.png" alt="Design 5">
+                <div class="grid-card-overlay">
+                    <h3>Creative Poster Assets</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+            <div class="grid-card" onclick="openModal('Vector UI Illustration', 'images/mobileapp1.1.png', 'image')">
+                <img src="images/mobileapp1.1.png" alt="Design 6">
+                <div class="grid-card-overlay">
+                    <h3>Vector UI Illustration</h3>
+                    <p>View Design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="photo-showcase">
+        <h2 class="title">📸 Photography Gallery</h2>
+        <p class="center-text">Cinematic frames from Cologne and Sulaymaniyah. Use the toggle to switch views.</p>
+    
+        <div class="toggle-container">
+            <button id="toggle-photo-3d" class="toggle-btn active" onclick="switchPhotoView('photo3d')">✨ Interactive
+                3D</button>
+            <button id="toggle-photo-grid" class="toggle-btn" onclick="switchPhotoView('photogrid')">📱 Quick Grid</button>
+        </div>
+    
+        <div id="view-photo-3d-container" class="view-wrapper active-view">
+            <div class="slider-container">
+                <div class="slider-3d">
+                    <div class="slider-item" style="--i:1; --steps:6;"
+                        onclick="openModal('Cologne Street Frame', 'images/12B850DE-5675-4A8D-9BA9-06266CC7C4FF.JPEG', 'image')">
+                        <img src="images/12B850DE-5675-4A8D-9BA9-06266CC7C4FF.JPEG" alt="Photo 1">
+                    </div>
+                    <div class="slider-item" style="--i:2; --steps:6;"
+                        onclick="openModal('Sulaymaniyah Architecture', 'images/307E04FC-4B7F-49FD-A31B-E8B0EBB92C02.JPEG', 'image')">
+                        <img src="images/307E04FC-4B7F-49FD-A31B-E8B0EBB92C02.JPEG" alt="Photo 2">
+                    </div>
+                    <div class="slider-item" style="--i:3; --steps:6;"
+                        onclick="openModal('Commercial Product Shot', 'images/AD5AD762-B59B-45CC-8AFE-8246CA47477F.JPEG', 'image')">
+                        <img src="images/AD5AD762-B59B-45CC-8AFE-8246CA47477F.JPEG" alt="Photo 3">
+                    </div>
+                    <div class="slider-item" style="--i:4; --steps:6;"
+                        onclick="openModal('Cinematic Portrait', 'images/BD76616C-B7D4-408B-A972-7DEEBE776AFF.JPEG', 'image')">
+                        <img src="images/BD76616C-B7D4-408B-A972-7DEEBE776AFF.JPEG" alt="Photo 4">
+                    </div>
+                    <div class="slider-item" style="--i:5; --steps:6;"
+                        onclick="openModal('Night Car Stills', 'images/IMG_4858.JPG', 'image')">
+                        <img src="images/IMG_4858.JPG" alt="Photo 5">
+                    </div>
+                    <div class="slider-item" style="--i:6; --steps:6;"
+                        onclick="openModal('Studio Lighting Capture', 'images/DSC_0223.JPG', 'image')">
+                        <img src="images/DSC_0223.JPG" alt="Photo 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="view-photo-grid-container" class="view-wrapper">
+            <div class="photography-editorial-grid">
+    
+                <div class="photo-grid-card photo-widescreen"
+                    onclick="openModal('Cologne Street Frame', 'images/12B850DE-5675-4A8D-9BA9-06266CC7C4FF.JPEG', 'image')">
+                    <img src="images/12B850DE-5675-4A8D-9BA9-06266CC7C4FF.JPEG" alt="Photo 1">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Cologne Street Frame</h3>
+                        <p>View Capture • 35mm</p>
+                    </div>
+                </div>
+    
+                <div class="photo-grid-card"
+                    onclick="openModal('Sulaymaniyah Architecture', 'images/307E04FC-4B7F-49FD-A31B-E8B0EBB92C02.JPEG', 'image')">
+                    <img src="images/307E04FC-4B7F-49FD-A31B-E8B0EBB92C02.JPEG" alt="Photo 2">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Sulaymaniyah Architecture</h3>
+                        <p>View Capture • Ultra-Wide</p>
+                    </div>
+                </div>
+    
+                <div class="photo-grid-card photo-tall"
+                    onclick="openModal('Commercial Product Shot', 'images/AD5AD762-B59B-45CC-8AFE-8246CA47477F.JPEG', 'image')">
+                    <img src="images/AD5AD762-B59B-45CC-8AFE-8246CA47477F.JPEG" alt="Photo 3">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Commercial Product Shot</h3>
+                        <p>View Capture • Studio</p>
+                    </div>
+                </div>
+    
+                <div class="photo-grid-card"
+                    onclick="openModal('Cinematic Portrait', 'images/BD76616C-B7D4-408B-A972-7DEEBE776AFF.JPEG', 'image')">
+                    <img src="images/BD76616C-B7D4-408B-A972-7DEEBE776AFF.JPEG" alt="Photo 4">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Cinematic Portrait</h3>
+                        <p>View Capture • 85mm</p>
+                    </div>
+                </div>
+    
+                <div class="photo-grid-card photo-widescreen"
+                    onclick="openModal('Night Car Stills', 'images/IMG_4858.JPG', 'image')">
+                    <img src="images/IMG_4858.JPG" alt="Photo 5">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Night Car Stills</h3>
+                        <p>View Capture • Low-Light</p>
+                    </div>
+                </div>
+    
+                <div class="photo-grid-card" onclick="openModal('Studio Lighting Capture', 'images/DSC_0223.JPG', 'image')">
+                    <img src="images/DSC_0223.JPG" alt="Photo 6">
+                    <div class="photo-flare-line"></div>
+                    <div class="photo-grid-overlay">
+                        <h3>Studio Lighting Capture</h3>
+                        <p>View Capture • Raw</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section id="toolkit" class="services-section">
+        <h2 class="title">🛠️ My Production Toolkit</h2>
+        <p class="center-text" style="margin-bottom: 40px;">The industry-standard software and systems I use to execute
+            high-end creative pipelines.</p>
+    
+        <div class="services-grid">
+            <div class="service-box">
+                <span class="service-icon">🎬</span>
+                <h3>Video Production</h3>
+                <p>DaVinci Resolve & CapCut for advanced long-form storytelling, multi-cam editing, color grading, and
+                    high-pacing short-form delivery.</p>
+            </div>
+    
+            <div class="service-box">
+                <span class="service-icon">🎨</span>
+                <h3>Visual Identity</h3>
+                <p>Adobe Photoshop & Illustrator for custom asset creation, advanced masking, composition layout, and
+                    promotional graphics.</p>
+            </div>
+    
+            <div class="service-box">
+                <span class="service-icon">💻</span>
+                <h3>Technical Layout</h3>
+                <p>HTML5, CSS3, and foundational computer science structures for interactive front-end web development and
+                    clean code logic.</p>
+            </div>
+    
+            <div class="service-box">
+                <span class="service-icon">📊</span>
+                <h3>Project Workflow</h3>
+                <p>Microsoft Excel & Word for data tracking, retention analytics, timeline management, scripting, and
+                    organized content calendars.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================================= -->
+<!-- PROFESSIONAL CONTACT SECTION -->
+<div class="brand-link-grid" style="display: flex; justify-content: center; width: 100%; padding: 20px 0;">
+    <a href="https://instagram.com/iuansview" target="_blank" class="brand-profile-card"
+        style="display: flex !important; align-items: center !important; text-decoration: none !important; padding: 20px; border: 1px solid var(--border-color); border-radius: 12px; max-width: 500px; width: 100%; background: rgba(255,255,255,0.03);">
+
+        <!-- Circle Image -->
+        <div
+            style="width: 60px !important; height: 60px !important; min-width: 60px !important; border-radius: 50% !important; overflow: hidden !important; flex-shrink: 0 !important; background: #000;">
+            <img src="images/IMG_4426.jpg" alt="Siuan Abdulkerim"
+                style="width: 100% !important; height: 100% !important; object-fit: cover !important; display: block !important;">
+        </div>
+
+        <!-- Text Content -->
+        <div class="creator-meta" style="margin-left: 20px !important; flex-grow: 1 !important;">
+            <h3 style="margin: 0 !important; color: #fff !important; font-size: 1.1rem;">Instagram</h3>
+            <span class="creator-tag shortform-tag"
+                style="display: inline-block; margin-top: 4px; font-size: 0.8rem;">@iuansview</span>
+            <p style="margin: 5px 0 0 0 !important; color: #94a3b8 !important; font-size: 0.85rem;">Follow my creative
+                process and see my latest cinematic frames.</p>
+        </div>
+
+        <!-- Arrow -->
+        <div class="card-arrow" style="margin-left: 15px !important; font-size: 1.2rem; color: #fff;">↗</div>
+    </a>
+</div>
+
+<!-- PROFESSIONAL FOOTER WITH LOGO SLOT -->
+<footer style="padding: 60px 20px; border-top: 1px solid var(--border-color); background: #05070a;">
+    <div style="max-width: 850px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+
+        <!-- Logo Branding in Footer -->
+        <div class="footer-logo">
+            <img src="images/IMG_4835.PNG" alt="Siuan Abdulkerim" style="height: 50px;">
+        </div>
+<!-- 
+        <div style="text-align: right;">
+            <p style="color: var(--text-main); font-weight: 700;">SIUAN ABDULKERIM</p>
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Technical Video Producer & Visual Architect</p>
+        </div>
+    </div>
+     -->
+</footer>
+    
+    <footer
+        style="background: #05070a; border-top: 1px solid var(--border-color); padding: 50px 20px 30px 20px; margin-top: 100px;">
+        <div
+            style="max-width: 850px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px;">
+    
+            <!-- Professional Logo Brand Slot -->
+            <div>
+                <div
+                    style="font-size: 1.2rem; font-weight: 800; letter-spacing: -0.5px; color: var(--text-main); margin-bottom: 5px;">
+                    SIUAN <span style="color: var(--accent); font-weight: 300;">// ABDULKERIM</span>
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-family: monospace; letter-spacing: 0.5px;">
+                    TECHNICAL VIDEO PRODUCER & VISUAL ARCHITECT
+                </div>
+            </div>
+    
+            <!-- Minimalist Navigation Tree & Top Button -->
+            <div style="display: flex; align-items: center; gap: 25px;">
+                <div style="display: flex; gap: 15px; font-size: 0.8rem;">
+                    <a href="#about" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent)'"
+                        onmouseout="this.style.color='var(--text-muted)'">About</a>
+                    <a href="#video-showcase"
+                        style="color: var(--text-muted); text-decoration: none; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent)'"
+                        onmouseout="this.style.color='var(--text-muted)'">Works</a>
+                    <a href="#graphic-showcase"
+                        style="color: var(--text-muted); text-decoration: none; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent)'"
+                        onmouseout="this.style.color='var(--text-muted)'">Design</a>
+                </div>
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+                    style="background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 8px 12px; border-radius: 4px; cursor: pointer; font-size: 0.8rem; font-family: monospace; transition: all 0.3s;"
+                    onmouseover="this.style.borderColor='var(--accent)'; this.style.color='var(--accent)';"
+                    onmouseout="this.style.borderColor='var(--border-color)'; this.style.color='var(--text-muted)';">
+                    ▲ TOP
+                </button>
+            </div>
+    
+        </div>
+    
+        <!-- Copyright Line -->
+        <div
+            style="max-width: 850px; margin: 40px auto 0 auto; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.02); display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text-muted); font-family: monospace;">
+            <span>© 2026 SIUAN ABDULKERIM. ALL RIGHTS RESERVED.</span>
+            <span style="color: rgba(255,255,255,0.15);">ENGINEERED FOR MODERN RUNTIMES ■</span>
+        </div>
+    </footer>
+    
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span onclick="closeModal()" class="close-btn">✖</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body" style="margin-top: 20px;"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
+
+    <footer>© 2026 Cinematic Portfolio • Built with Passion</footer>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span onclick="closeModal()" class="close-btn">✖</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body" style="margin-top: 20px;"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
